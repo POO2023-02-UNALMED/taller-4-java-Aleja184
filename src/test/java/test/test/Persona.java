@@ -1,8 +1,8 @@
-package pruebas;
+package test;
 
 public class Persona {
 
-	long cedula;
+    long cedula;
     String nombre;
     static int totalPersonas;
     
@@ -13,6 +13,7 @@ public class Persona {
     public Persona() {
     	this.cedula = 0;
 	}
+    
     public Persona(long cedula, String nombre) {
         this.cedula = cedula;
         this.nombre = nombre;
@@ -32,7 +33,7 @@ public class Persona {
     }
 
     public Persona(String nombre) {
-        this.nombre = "";
+        this.nombre = nombre;
         this.cedula = 1;
         totalPersonas++;
     }

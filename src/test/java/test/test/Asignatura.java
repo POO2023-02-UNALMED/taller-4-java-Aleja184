@@ -1,4 +1,6 @@
-package pruebas;
+package test;
+
+import test.Tipo;
 
 public class Asignatura {
 
@@ -11,7 +13,6 @@ public class Asignatura {
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
     }
-
 
     public Asignatura(int codigoExterno,Tipo tipo) {
         this("Sin nombre", 0, codigoExterno,tipo);
@@ -34,8 +35,6 @@ public class Asignatura {
         this.nombre = nombre;
         this.tipo = tipo;
     }
-
- 
 
     public void cambiarDatos(int codigoExterno) {
         this.codigoExterno = codigoExterno;
