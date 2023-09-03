@@ -1,6 +1,6 @@
 package classroom;
 
-import pruebas.Tipo;
+import classroom.Tipo;
 
 public class Asignatura {
 
