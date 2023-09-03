@@ -1,6 +1,6 @@
 package test;
 
-import pruebas.Tipo;
+import test.Tipo;
 
 public class Asignatura {
 
@@ -12,7 +12,6 @@ public class Asignatura {
 
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
-        this(0);
     }
 
     public Asignatura(int codigoExterno,Tipo tipo) {
