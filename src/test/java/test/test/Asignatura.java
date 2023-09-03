@@ -1,4 +1,4 @@
-package classroom;
+package test;
 
 import pruebas.Tipo;
 
